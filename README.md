@@ -107,9 +107,9 @@ Example `Backend URLs` value:
 ```
 http://server1.example.com:8080/api,http://server2.example.com:8080/api
 ```
-<img width="612" height="161" alt="image" src="https://github.com/user-attachments/assets/db1a8167-de9c-4dcb-8b5c-67caa25e778f" />
-
 <img width="597" height="144" alt="image" src="https://github.com/user-attachments/assets/738e033a-3025-4a34-aefc-e239a5135701" />
+
+<img width="612" height="161" alt="image" src="https://github.com/user-attachments/assets/db1a8167-de9c-4dcb-8b5c-67caa25e778f" />
 
 <img width="800" height="208" alt="image" src="https://github.com/user-attachments/assets/c4d57f41-cc60-45d8-8595-209acfaa91ee" />
 
