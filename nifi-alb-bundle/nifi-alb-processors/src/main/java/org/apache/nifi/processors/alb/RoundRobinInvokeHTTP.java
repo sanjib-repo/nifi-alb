@@ -111,7 +111,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @SupportsBatching
 @Tags({ "http", "https", "invoke", "load-balance", "rest", "round-robin", "failover" })
 @InputRequirement(Requirement.INPUT_ALLOWED)
-@CapabilityDescription("Developed by Sanjib Biswas. An HTTP client processor which can interact with a configurable HTTP Endpoint. The destination URLs and HTTP Method are configurable."
+@CapabilityDescription("An HTTP client processor which can interact with a configurable HTTP Endpoint. The destination URLs and HTTP Method are configurable."
 		+ " Distributes requests across multiple backend URLs in round-robin fashion, with failover to the next URL if connection/read fails or HTTP 5xx response."
 		+ " FlowFile attributes are converted to HTTP headers and the FlowFile contents are included as the body of the request (if the HTTP Method is PUT, POST or PATCH).")
 @WritesAttributes({
@@ -1298,4 +1298,5 @@ public class RoundRobinInvokeHTTP extends AbstractProcessor {
 			return delegate.verify(hostname, session);
 		}
 	}
+
 }
