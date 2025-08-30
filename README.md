@@ -6,6 +6,8 @@
 
 It extends NiFi's built-in `InvokeHTTP` functionality but adds **client-side load balancing and failover** logic. If a request to a backend endpoint fails (due to connection errors or HTTP 5xx responses), the processor automatically retries the request against the next endpoint in the configured list.
 
+<img width="934" height="514" alt="image" src="https://github.com/user-attachments/assets/66b9ad48-3e2b-4230-8abe-471dbf94dbef" />
+
 This processor is particularly **useful in environments where the downstream system does not sit behind a traditional load balancer**. It provides application-level load balancing directly within your NiFi flow.
 
 ---
@@ -105,6 +107,11 @@ Example `Backend URLs` value:
 ```
 http://server1.example.com:8080/api,http://server2.example.com:8080/api
 ```
+<img width="612" height="161" alt="image" src="https://github.com/user-attachments/assets/db1a8167-de9c-4dcb-8b5c-67caa25e778f" />
+
+<img width="597" height="144" alt="image" src="https://github.com/user-attachments/assets/738e033a-3025-4a34-aefc-e239a5135701" />
+
+<img width="800" height="208" alt="image" src="https://github.com/user-attachments/assets/c4d57f41-cc60-45d8-8595-209acfaa91ee" />
 
 ---
 
