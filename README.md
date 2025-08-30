@@ -56,7 +56,7 @@ To build the processor and generate the deployable `.nar` file:
 
 ```bash
 # Clone this repo
-git clone https://github.com/<your-username>/RoundRobinInvokeHTTP.git
+git clone https://github.com/sanjib-repo/nifi-alb/RoundRobinInvokeHTTP.git
 cd RoundRobinInvokeHTTP
 
 # Build using Maven
